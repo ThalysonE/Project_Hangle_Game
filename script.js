@@ -86,7 +86,7 @@ function escolheLetra(letra) {
         mensagem.appendChild(t1);
 
         let botao = document.createElement("button");
-        let t2 = document.createTextNode("jogar novamente");
+        let t2 = document.createTextNode("Jogar novamente");
         
         botao.appendChild(t2);
         botao.setAttribute('class', 'novo-bt');
